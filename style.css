@@ -1,0 +1,19 @@
+#bookTable {
+  text-align: center;
+  padding: 5px;
+  min-width: 400px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+th {
+  display: inline-block;
+  /* margin: 10px; */
+  padding: 20px;
+}
+
+td {
+  display: inline-block;
+  /* margin: 10px; */
+  padding: 0 10px;
+}

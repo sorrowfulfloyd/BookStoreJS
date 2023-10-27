@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="addForm">
+        <h1>Library</h1>
+        <input type="text" placeholder="Book name" id="bookName">
+        <input type="text" placeholder="Author" id="author">
+        <input type="text" placeholder="Number of pages" id="pages"><br>
+        <input type="checkbox" id="hasBeenRead">Did you read that?<br>
+        <button type="submit" onc>Add new book</button>
+    </form>
+    <br><br>
+    <table id="bookTable">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Read?</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
