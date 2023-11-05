@@ -5,12 +5,14 @@ const bookTable = document.getElementById("bookTable")
 const myLibrary = []
 let index = 1;
 
-function Book(name, author, pages, read, index) {
-  this.name = name;
-  this.author = author;
-  this.pages = pages;
-  this.read = read;
-  this.index = index;
+class Book {
+  constructor(name, author, pages, read, index) {
+    this.name = name;
+    this.author = author;
+    this.pages = pages;
+    this.read = read;
+    this.index = index;
+  }
 }
 
 function addBookToLibrary() {
